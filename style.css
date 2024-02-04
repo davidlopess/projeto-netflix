@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-image: url(https://www.digitaltrends.com/wp-content/uploads/2021/03/netflix-graphic-with-three-screens.png?fit=720%2C720&p=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 91vh;
+    background-image: linear-gradient(trasparent);
+    font-family: 'Roboto', sans-serif;
+   
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.logo img{
+    width: 150px;
+    margin-left: 50px;
+   
+}
+
+.navi a{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+.navi a:hover{
+    color: rgba(223, 222, 222, 0.97);
+}
+
+.lup{
+    margin-right: 5em;
+}
+.lup svg{
+    color: aliceblue;
+    margin: 0px 10px;
+}
+
+/* =================================== */
+
+main{
+    color: white;
+  
+    width: 600px;
+    margin: 80px 0px 0px 50px;
+    padding: 20px;
+   max-width: 600px;
+   min-width: 600px;
+}
+main h1{
+    font-size: 5em;
+    color: red;
+    text-shadow: 2px 2px 3px rgb(61, 60, 60);
+}
+.brasil{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#top{
+    background-color: red;
+    width: 5px;
+    padding: 8px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: -8px;
+    font-size: 16px;
+}
+
+article{
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+button{
+    background-color: rgb(251, 251, 251);
+    padding: 10px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.btn-buttom{
+    margin-left: 73px;
+}
+
+.btn-buttom img{
+    width: 18px;
+    align-items: center;
+}
+.btn-buttom a{
+    color: black;
+    background-color: rgb(169, 169, 169);
+    padding: 13px;
+    text-decoration: none;
+}
+
